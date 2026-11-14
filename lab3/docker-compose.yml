@@ -1,0 +1,9 @@
+﻿services:
+  redis:
+    image: redis
+
+  rocketcounter:
+    image: rotorocloud/rocket-counter
+    ports:
+      - "0:5000"
+
